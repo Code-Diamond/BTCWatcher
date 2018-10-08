@@ -76,7 +76,8 @@ public class BTCWatcher extends JFrame
 		panel.add(time);
 		add(panel);
 		setSize(400,400);
-		setTitle("Top Lists");
+		setTitle("BTCWatcher");
+		frame.setLocationRelativeTo(null);
 		pack();
 		//Show to user
 		setVisible(true);
